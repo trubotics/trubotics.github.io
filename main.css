@@ -98,16 +98,16 @@ a:hover{
     left: 35px;
 }
 #jumbotronFull {
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-image: url(Img/jumbo.jpg);
-    background-size: cover;
-    background-position: center;
+    /*background-size: cover;
+    background-position: center;*/
     text-align: center;
     margin: 0;
 }
