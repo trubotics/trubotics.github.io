@@ -26,12 +26,13 @@ h4 {
 }
 p {
     padding-top: 20px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Poppins", sans-serif;
     color: #768B95;
     letter-spacing: .012em;
     line-height: 150% !important;
 }
+
 
 a:hover{
     cursor: pointer;
@@ -62,7 +63,7 @@ a:hover{
     margin: 75px;
 }
 .sideDiv {
-    margin: 75px;
+    margin: 25px;
 }
 .svgMargin {
     margin: 75px;
@@ -100,6 +101,10 @@ a:hover{
     bottom: 10px;
     left: 35px;
 }
+
+.row{
+    margin-bottom: 100px;
+}
 #jumbotronFull {
     /*background-attachment: fixed;*/
     background-position: center;
@@ -131,7 +136,11 @@ a:hover{
 }
 .fullsizeImg{
     max-width:100%;
-max-height:100%;
+    max-height:100%;
+}
+.fullsizeDiv{
+    background-size: cover;
+    
 }
 .bannerIcon {
     margin-left: auto;
@@ -354,7 +363,7 @@ footer {
     visibility: hidden;
 }
 .sidenav {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     transition: all 0.25s ease;
     height: 100%;
@@ -368,7 +377,7 @@ footer {
     text-decoration: none;
 }
 .sidenav a {
-    font-weight: 400;
+    font-weight: 700;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -379,7 +388,7 @@ footer {
 .sidenav a:hover,
 .offcanvas a:focus {
     text-decoration: none;
-    color: #294053;
+    color: #FF0842;
 }
 .sidenav .closebtn {
     position: absolute;
@@ -650,7 +659,11 @@ textArea:focus{
         margin-bottom: 100px;
     }
 }
+
+
+
 @media screen and (max-width: 1024px) {
+    
     .hamburger {
         visibility: visible;
         position: fixed;
@@ -713,7 +726,8 @@ textArea:focus{
         display: block;
     }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
+    
     .svgMargin {
         margin: 75px;
     }
@@ -728,6 +742,33 @@ textArea:focus{
         padding: 0;
         width: 90%;
     }
+
+}
+@media screen and (max-width: 500px){
+    h2{
+        font-size: 10px;
+    }
+     .squareDiv {
+        margin: 0;
+        margin-bottom: 100px;
+    }
+    .fullsizeImg{
+        width: auto;
+        height: auto;
+    }
+    .withDoubleMargins{
+        margin-left: 0px;
+        margin-right: 0px;   
+    }
+    .mobileMargins{
+        margin-left: 60px;
+    margin-right: 60px;
+    }
+    .withMainMargins {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
 }
 @media screen and (max-width: 320px) {
     .withMainMargins {

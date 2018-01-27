@@ -19,6 +19,18 @@ var main = function () {
 
 
     //making events square
+    if (window.innerWidth <768){
+        
+        var bw = window.innerWidth;
+        
+         $('.squareDiv').css({'height': bw + 'px'});
+        
+    $('.square').css({ 'height': bw + 'px'});
+    $('.longHorizontal').height($('.squareDiv').height());  
+    $('.fullsizeImg').css({ 'width': bw + 'px'});
+        
+    } else {
+    
     var cw = $('.squareDiv').width();
     $('.squareDiv').css({
         'height': cw + 'px'
@@ -28,7 +40,13 @@ var main = function () {
     $('.square').css({
         'height': cw + 'px'
     });
+         //setting longHorizontal height
+    $('.longHorizontal').height($('.squareDiv').height());
+    }
 
+$('#fullsizeDiv1').height($('#row1').height());
+    $('#fullsizeDiv2').height($('#row2').height());
+     $('#fullsizeDiv3').height($('#row3').height());
 
 
     //making rectDiv rectangular
@@ -42,11 +60,9 @@ var main = function () {
 
     //setting jumbotron height
     $("#jumbotronFull").css("height", window.innerHeight);
-    
-    $("jumbotronFull").css("width", window.innerWidth);
 
-    //setting longHorizontal height
-    $('.longHorizontal').height($('.squareDiv').height());
+
+   
 
     //setting when background should change
     var changePoint = ($('#jumbotronFull').offset().top + $('#jumbotronFull').height() * 0.9);
