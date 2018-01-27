@@ -41,6 +41,8 @@ var main = function () {
 
     //setting jumbotron height
     $("#jumbotronFull").css("height", window.innerHeight);
+    
+    $("jumbotronFull").css("width", window.innerWidth);
 
     //setting longHorizontal height
     $('.longHorizontal').height($('.squareDiv').height());
