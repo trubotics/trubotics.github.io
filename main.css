@@ -101,7 +101,7 @@ a:hover{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
