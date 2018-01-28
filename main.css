@@ -77,7 +77,7 @@ a:hover{
 .white {
     color: white !important;
 }
-.blue {
+.red {
     color: #FF0842;
 }
 .grey {
@@ -103,8 +103,11 @@ a:hover{
 }
 
 .row{
-    margin-bottom: 100px;
 }
+.sponsorList{
+    font-size: 20px;
+}
+
 #jumbotronFull {
     /*background-attachment: fixed;*/
     background-position: center;
