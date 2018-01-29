@@ -113,8 +113,10 @@ a:hover{
     left: 35px;
 }
 
-.row{
+.center{
+    text-align: center;
 }
+
 .sponsorList{
     font-size: 20px;
 }
