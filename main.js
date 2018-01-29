@@ -47,6 +47,7 @@ var main = function () {
 $('#fullsizeDiv1').height($('#row1').height());
     $('#fullsizeDiv2').height($('#row2').height());
      $('#fullsizeDiv3').height($('#row3').height());
+$('#fullsizeDiv4').height($('#row4').height());
 
 
     //making rectDiv rectangular
@@ -160,7 +161,7 @@ function closeModal() {
 
 //email script
 function sendMail() {
-    var link = "mailto:markhamyouthchallenge@gmail.com" + "?subject=" + escape(document.getElementById('mySubject').value) + "&body=" + escape(document.getElementById('myText').value);
+    var link = "mailto:pethstrubotics@gmail.com" + "?subject=" + escape(document.getElementById('mySubject').value) + "&body=" + escape(document.getElementById('myText').value);
 
     window.location.href = link;
 

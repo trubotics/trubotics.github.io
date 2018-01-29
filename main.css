@@ -2,6 +2,8 @@ html,
 body {
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
+    padding:0;
+    margin:0;
     
 }
 h1 {
@@ -36,6 +38,15 @@ p {
 
 a:hover{
     cursor: pointer;
+    text-decoration: none;
+}
+.link{
+    color: #580437;
+    transition: all 0.25s ease;
+}
+.link:hover{
+    transition: all 0.25s ease;
+    color: #FF0842 !important;
 }
 .whiteLogo {
     height: 70px;
@@ -263,14 +274,14 @@ button {
 .button:hover {
     text-decoration: none;
     color: white;
-    background: #FACD00;
-    background: -webkit-linear-gradient(left, #FACD00, #FB0033);
+    background: #580437;
+    background: -webkit-linear-gradient(left, #580437, #FB0033);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(left, #FACD00, #FB0033);
+    background: -o-linear-gradient(left, #580437, #FB0033);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(left, #FACD00, #FB0033);
+    background: -moz-linear-gradient(left, #580437, #FB0033);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #FACD00, #FB0033);
+    background: linear-gradient(to right, #580437, #FB0033);
     /* Standard syntax */
 }
 .rectangle {
@@ -326,41 +337,26 @@ button {
     width: 100px;
 }
 footer {
-    margin: 25px;
+    
+    background: -webkit-linear-gradient(#1D2059, #FB0033, #1D2059);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1D2059, #FB0033, #1D2059);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1D2059, #FB0033, #1D2059);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1D2059, #FB0033, #1D2059);
+    margin: 0px;
+    text-align: center;
 }
-.footer {}
-.footer h2 {
-    font-size: 25px !important;
+.footer {
 }
-.footer ul {
-    margin: 0;
-    font-weight: 600;
-    font-size: 1em;
-    font-family: 'Helvetica', sans-serif;
-    background-color: transparent;
-    transition: all 0.25s ease;
-    width: 100%;
-    padding: 0px;
-    list-style-type: none;
-    width: 150px;
-    display: none;
-}
-.footer li {
-    margin-top: 1.25em;
-}
-.footer a {
-    text-decoration: none;
-    color: #C7D0D4 !important;
-}
-.footer a:hover {
-    text-decoration: none;
-    color: #FB0033 !important;
-}
+
 
 /*mobile menu*/
 
 .hamburger {
     visibility: hidden;
+    display: none;
 }
 .staticHamburger {
     visibility: hidden;
@@ -448,14 +444,14 @@ footer {
 .button2:hover {
     text-decoration: none;
     color: white;
-    background: #FACD00;
-    background: -webkit-linear-gradient(left, #FACD00, #FB0033);
+    background: #580437;
+    background: -webkit-linear-gradient(left, #580437, #FB0033);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(left, #FACD00, #FB0033);
+    background: -o-linear-gradient(left, #580437, #FB0033);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(left, #FACD00, #FB0033);
+    background: -moz-linear-gradient(left, #580437, #FB0033);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #FACD00, #FB0033);
+    background: linear-gradient(to right, #580437, #FB0033);
     /* Standard syntax */
 }
 .letter {
@@ -537,7 +533,7 @@ div.modal-content {
     height: 180px;
 }
 .exit {
-    color: #FACD00;
+    color: #580437;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -665,9 +661,13 @@ textArea:focus{
 
 
 
+
+
+
 @media screen and (max-width: 1024px) {
     
     .hamburger {
+        display: block;
         visibility: visible;
         position: fixed;
         top: 10px;
