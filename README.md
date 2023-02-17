@@ -1,4 +1,3 @@
+# Trubotics Official Website
 
-#Trubotics Official Website
 
-trubotics.github.io
