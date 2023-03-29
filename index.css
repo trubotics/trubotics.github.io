@@ -1,37 +1,37 @@
 html,
 body {
     overflow-x: hidden;
-    font-family: "Roboto", sans-serif;
+    font-family: "General Sans", sans-serif;
     padding:0;
     margin:0;
     
 }
 h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900 !important;
+    font-family: "General Sans", sans-serif;
+    font-weight: 300 !important;
+    letter-spacing: 0.5px;
 }
 h2 {
-    font-family: "Roboto", sans-serif; !important;
-    font-weight: 1000 !important;
-    font-size: 70px !important;
+    font-family: "General Sans", sans-serif !important;
+    font-weight: 300 !important;
 }
 h3 {
-    font-family: "Roboto", sans-serif !important;
-    font-weight: 1000 !important;
+    font-family: "General Sans", sans-serif !important;
+    font-weight: 300 !important;
     font-size: 30px !important;
 }
 h4 {
-    font-family: "Roboto", sans-serif !important;
-    font-weight: 400 !important;
+    font-family: "General Sans", sans-serif !important;
+    font-weight: 3400 !important;
     font-size: 20px !important;
     line-height: 150% !important;
 }
 p {
     padding-top: 20px;
     font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    color: #768B95;
-    letter-spacing: .012em;
+    font-family: "General Sans", sans-serif;
+    color: #535353;
+    letter-spacing: .010em;
     line-height: 150% !important;
 }
 
@@ -83,7 +83,7 @@ a:hover{
     margin: 75px;
 }
 .dark {
-    color: #294053;
+    color: #000000;
 }
 .white {
     color: white !important;
@@ -92,16 +92,16 @@ a:hover{
     color: #FF0842;
 }
 .grey {
-    color: #C7D0D4;
+    color: #000000;
 }
 .darkGrey {
-    color: #768B95;
+    color: #000000;
 }
 .textA {
     text-decoration: none;
 }
 .textA:hover {
-    color: #C7D0D4 !important;
+    color: #000000 !important;
     text-decoration: none !important;
 }
 .name {
@@ -135,8 +135,11 @@ a:hover{
     text-align: center;
     margin: 0;
 }
-#textLogo{
-    width: inherit;
+.textLogo{
+    margin:10%;
+    width: 100%;
+    height:auto;
+    max-height: 200px;
     align-self: center;
 }
 .smallBanner {
@@ -151,8 +154,8 @@ a:hover{
     margin-right: 10px;
 }
 .fullsizeImg{
-    max-width:100%;
-    max-height:100%;
+    max-width:50%;
+    max-height:50%;
 }
 .fullsizeDiv{
     background-size: cover;
@@ -173,7 +176,7 @@ a:hover{
     margin-right: 250px;
 }
 .topnav {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'General Sans', sans-serif;
     font-size: 1.25em;
     background-color: transparent;
     transition: all 0.25s ease;
@@ -188,7 +191,7 @@ a:hover{
 }
 ul.topnav {
     margin: 0;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 1.25em;
     /*overflow: hidden;*/
     /*align-items: center;*/
@@ -204,12 +207,12 @@ ul.topnav li {
 .topnav a:hover {
     color: #FF0842;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 300;
     font-size: 1.25em;
 }
 ul.staticTopnav {
     margin: 0;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 1.25em;
     /*overflow: hidden;*/
     /*align-items: center;*/
@@ -233,17 +236,17 @@ ul.staticTopnav li {
 }
 .staticTopnav a {
     transition: all 0.25s ease;
-    color: #274053 !important;
+    color: #000000 !important;
 }
 .staticTopnav a:hover {
     text-decoration: none;
-    color: #C7D0D4 !important;
+    color: #8b3c3c !important;
 }
 .changeStyle a {
-    color: #274053 !important;
+    color: #000000 !important;
 }
 .changeStyle a:hover {
-    color: #C7D0D4 !important;
+    color: #f09b9b !important;
 }
 .space {
     height: 50px;
@@ -255,16 +258,15 @@ button {
     border: none;
 }
 .button {
-    font-family: "Roboto", sans-serif;
-    border-radius: 6px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    font-family: "General Sans", sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     text-decoration: none;
     color: white;
     background: #FB0033;
-    background: -webkit-linear-gradient(left, #1D2059, #FB0033);
+    background: -webkit-linear-gradient(left, #1D2059, #fb003f);
     /* For Safari 5.1 to 6.0 */
     /* background: -o-linear-gradient(right, #1D2059, #FB0033);
     /* For Opera 11.1 to 12.0 */
@@ -283,13 +285,19 @@ button {
     /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(left, #580437, #FB0033);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #580437, #FB0033);
+    background: linear-gradient(to right, #7c074d, #ff2b56);
     /* Standard syntax */
 }
 .rectangle {
     width: 50%;
-    height: 20px;
+    height: 5px;
 }
+
+.hr1{
+    color:rgb(250, 0, 0);
+    border-style:solid;
+}
+
 .inlineTitle {
     justify-content: space-between;
     vertical-align: center;
@@ -364,7 +372,7 @@ footer {
     visibility: hidden;
 }
 .sidenav {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'General Sans', sans-serif;
     font-size: 12px;
     transition: all 0.25s ease;
     height: 100%;
@@ -378,7 +386,7 @@ footer {
     text-decoration: none;
 }
 .sidenav a {
-    font-weight: 700;
+    font-weight: 300;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -432,7 +440,7 @@ footer {
     margin-left: 50px;
 }
 .button2 {
-    font-family: "Roboto", sans-serif;
+    font-family: "General Sans", sans-serif;
     font-size: 16px;
     border-radius: 6px;
     padding-left: 20px;
