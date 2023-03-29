@@ -135,13 +135,17 @@ a:hover{
     text-align: center;
     margin: 0;
 }
-.textLogo{
+
+
+#textLogo{
     margin:10%;
-    width: 100%;
+    width: auto;
     height:auto;
-    max-height: 200px;
+    max-width:50vh;
     align-self: center;
 }
+
+
 .smallBanner {
     height: 30px;
     display: flex;
