@@ -129,7 +129,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(Img/jumbo.jpg);
+    background-image: url(Img/12.jpg);
     /*background-size: cover;
     background-position: center;*/
     text-align: center;
@@ -141,7 +141,8 @@ a:hover{
     margin:10%;
     width: auto;
     height:auto;
-    max-width:50vh;
+    max-width:40vw;
+    max-height:110vh;
     align-self: center;
 }
 
