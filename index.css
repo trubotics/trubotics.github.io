@@ -164,7 +164,6 @@ a:hover{
 }
 .fullsizeDiv{
     background-size: cover;
-    
 }
 .bannerIcon {
     margin-left: auto;
@@ -255,6 +254,7 @@ ul.staticTopnav li {
 }
 .space {
     height: 50px;
+    margin:0;
 }
 .addSpacer {
     margin-bottom: 30px;
