@@ -6,20 +6,29 @@ body {
     margin:0;
     
 }
+
+.page{
+    margin-top: 5%;
+}
 h1 {
     font-family: "General Sans", sans-serif;
     font-weight: 300 !important;
     letter-spacing: 0.5px;
 }
+
 h2 {
     font-family: "General Sans", sans-serif !important;
     font-weight: 300 !important;
+    font-size:6vw;
 }
+
+
 h3 {
     font-family: "General Sans", sans-serif !important;
     font-weight: 300 !important;
-    font-size: 30px !important;
+    font-size:3vw;
 }
+
 h4 {
     font-family: "General Sans", sans-serif !important;
     font-weight: 3400 !important;
@@ -35,6 +44,13 @@ p {
     line-height: 150% !important;
 }
 
+.fullsizeDiv{
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: bottom;
+}
 
 a:hover{
     cursor: pointer;
@@ -138,11 +154,10 @@ a:hover{
 
 
 #textLogo{
-    margin:10%;
     width: auto;
     height:auto;
-    max-width:40vw;
-    max-height:110vh;
+    justify-content: center;
+    max-height:200vh;
     align-self: center;
 }
 
@@ -162,9 +177,7 @@ a:hover{
     max-width:50%;
     max-height:50%;
 }
-.fullsizeDiv{
-    background-size: cover;
-}
+
 .bannerIcon {
     margin-left: auto;
     margin-right: auto;
@@ -173,11 +186,11 @@ a:hover{
 }
 .withMainMargins {
     margin-left: 175px;
-    margin-right: 175px;
+    margin-right: 5%;
 }
 .withDoubleMargins {
     margin-left: 250px;
-    margin-right: 250px;
+    margin-right: 5%;
 }
 .topnav {
     font-family: 'General Sans', sans-serif;
@@ -266,8 +279,8 @@ button {
     font-family: "General Sans", sans-serif;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-decoration: none;
     color: white;
     background: #FB0033;
@@ -647,14 +660,29 @@ textArea:focus{
 
 
 @media screen and (max-width: 1200px) {
+    h2{
+        font-size: 6vw;
+    }
+    h3{
+        font-size: 3vw;
+    }
+
     .withMainMargins {
-        margin-left: 150px;
-        margin-right: 130px;
+        margin-left: 200px;
+        margin-right: 20px;
     }
     .withDoubleMargins {
-        margin-left: 160px;
-        margin-right: 140px;
+        margin-left: 20%;
+        margin-right: 10%;
     }
+
+    /* first img */
+    .fullsizeDiv{
+        width: 100%;
+        height: 400px;
+        margin-top:5%;
+    }
+
     .svgMargin {
         margin: 15px;
         margin-bottom: 100px;
@@ -680,6 +708,12 @@ textArea:focus{
 
 
 @media screen and (max-width: 1024px) {
+    h2{
+        font-size: 6vw;
+    }
+    h3{
+        font-size: 3vw;
+    }
     
     .hamburger {
         display: block;
@@ -709,11 +743,11 @@ textArea:focus{
     }
     .withMainMargins {
         margin-left: 50px;
-        margin-right: 50px;
+        margin-right: 0.5vw;
     }
     .withDoubleMargins {
         margin-left: 60px;
-        margin-right: 60px;
+        margin-right: 0.5vw;
     }
     .svgMargin {
         margin: 10px;
@@ -734,6 +768,7 @@ textArea:focus{
     }
 }
 @media screen and (max-width: 600px) {
+    
     .jumbotron h1 {
         font-size: 250% !important;
     }
@@ -762,10 +797,11 @@ textArea:focus{
     }
 
 }
+
+/* mobile */
+
 @media screen and (max-width: 500px){
-    h2{
-        font-size: 10px;
-    }
+
      .squareDiv {
         margin: 0;
         margin-bottom: 100px;
@@ -774,13 +810,23 @@ textArea:focus{
         width: auto;
         height: auto;
     }
+
+    /* first image*/
+    .fullsizeDiv1{
+        width: 100%;
+        height: 450px;
+        margin-top:5%;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
     .withDoubleMargins{
         margin-left: 0px;
         margin-right: 0px;   
     }
     .mobileMargins{
-        margin-left: 60px;
-    margin-right: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .withMainMargins {
         margin-left: 0px;
@@ -788,7 +834,17 @@ textArea:focus{
     }
     
 }
+
+/* mobile */
 @media screen and (max-width: 320px) {
+    h2{
+        font-size: 13vw;
+    }
+
+    h3{
+        font-size: 10vw;
+    }
+
     .withMainMargins {
         margin-left: 0px;
         margin-right: 0px;
@@ -821,6 +877,7 @@ textArea:focus{
     }
 }
 @media screen and (max-height: 600px) {
+    
     .modal-content {
         height: 500px !important;
     }
