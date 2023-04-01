@@ -155,10 +155,7 @@ a:hover{
 
 
 #textLogo{
-    width: auto;
-    height:auto;
     justify-content: center;
-    max-height:200vh;
     align-self: center;
 }
 

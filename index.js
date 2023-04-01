@@ -8,11 +8,11 @@ var main = function () {
     //setting the jumbotron text logo
     if (window.innerWidth < 768){
         $('#jumbotronFull').css("background-image", "url(Img/jumboVertical.jpg)");
-        $('#textLogo').css("width", window.innerWidth * 0.75);
+        $('#textLogo').css("width", window.innerWidth * 0.9);
         $('#textLogo').attr("src", "Img/textLogoVertical.png");
         
     } else {
-            $('#textLogo').css("width", window.innerWidth * 0.6);
+            $('#textLogo').css("width", window.innerWidth * 0.5);
             $('#jumbotronFull').css("background-attachment", "fixed");
     }
     
