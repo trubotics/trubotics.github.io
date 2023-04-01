@@ -778,7 +778,13 @@ textArea:focus{
     }
 }
 @media screen and (max-width: 768px) {
-    
+    h2{
+        font-size: 10vw;
+    }
+
+    h3{
+        font-size: 5vw;
+    }
     .svgMargin {
         margin: 75px;
     }
@@ -799,7 +805,13 @@ textArea:focus{
 /* mobile */
 
 @media screen and (max-width: 500px){
+    h2{
+        font-size: 13vw;
+    }
 
+    h3{
+        font-size: 10vw;
+    }
      .squareDiv {
         margin: 0;
         margin-bottom: 100px;
