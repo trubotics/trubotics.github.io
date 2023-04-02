@@ -146,7 +146,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(Img/12.jpg);
+    background-image: url(Img\background.png);
     /*background-size: cover;
     background-position: center;*/
     text-align: center;
