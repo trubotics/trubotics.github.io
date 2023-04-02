@@ -7,7 +7,7 @@ var main = function () {
     
     //setting the jumbotron text logo
     if (window.innerWidth < 768){
-        $('#jumbotronFull').css("background-image", "url(Img/jumboVertical.jpg)");
+        $('#jumbotronFull').css("background-image", "url(Img/Img\background.png)");
         $('#textLogo').css("width", window.innerWidth * 0.9);
         $('#textLogo').attr("src", "Img/textLogoVertical.png");
         

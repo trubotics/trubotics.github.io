@@ -40,7 +40,7 @@ p {
     padding-top: 20px;
     font-size: 22px;
     font-family: "General Sans", sans-serif;
-    color: #535353;
+    color: #0000008e;
     letter-spacing: .005em;
     line-height: 150% !important;
 }
@@ -146,7 +146,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(Img\background.png);
+    background-image: url(Img/background.png);
     /*background-size: cover;
     background-position: center;*/
     text-align: center;
@@ -220,9 +220,9 @@ ul.topnav li {
     color: white;
 }
 .topnav a:hover {
-    color: #FF0842;
+    color: white;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.25em;
 }
 ul.staticTopnav {
@@ -261,7 +261,7 @@ ul.staticTopnav li {
     color: #000000 !important;
 }
 .changeStyle a:hover {
-    color: #f09b9b !important;
+    color: #cc4e4e !important;
 }
 .space {
     height: 50px;
